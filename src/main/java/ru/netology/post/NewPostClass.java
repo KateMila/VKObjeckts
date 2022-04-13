@@ -1,15 +1,20 @@
-package ru.netology.manager;
+package ru.netology.post;
 
 import ru.netology.domain.*;
 
 
-public class NewPostManager {
+public class NewPostClass {
     NewPost newPost = new NewPost();
     Views view = new Views();
     Likes like = new Likes();
     Donut donut = new Donut();
     CommentsInfo comment = new CommentsInfo();
     Reposts repost = new Reposts();
+    Attachment attachment = new Attachment();
+    CopyHistory copyHistory = new CopyHistory();
+    CopyRight copyRight = new CopyRight();
+    Geo geo = new Geo();
+    PostSource postSource = new PostSource();
 
     public NewPost getNewPost() {
         // To do some logic;
@@ -37,6 +42,31 @@ public class NewPostManager {
     }
 
     public Reposts getRepost() {
+        // To do some logic;
+        return null;
+    }
+
+    public Attachment attachment() {
+        // To do some logic;
+        return null;
+    }
+
+    public CopyHistory copyHistory(){
+        // To do some logic;
+        return null;
+    }
+
+    public CopyRight copyRight(){
+        // To do some logic;
+        return null;
+    }
+
+    public Geo geo(){
+        // To do some logic;
+        return null;
+    }
+
+    public PostSource postSource(){
         // To do some logic;
         return null;
     }

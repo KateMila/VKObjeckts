@@ -5,6 +5,7 @@ public class Likes {
     private int countUsers;
     private int userLikes;
     private int userCanLike;
+    private int can_publish;
 
     // + get/set на все поля
 
